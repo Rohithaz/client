@@ -8,7 +8,7 @@ export default function Login({ setAuth }) {
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
-
+ 
   const handleLogin = async (event) => {
     event.preventDefault();
     setIsLoading(true);
