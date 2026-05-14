@@ -1,0 +1,40 @@
+.category-container {
+  padding: 30px;
+}
+
+.category-card {
+  max-width: 500px;
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.category-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.category-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.category-form button {
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.category-item {
+  padding: 10px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  margin-bottom: 6px;
+}
